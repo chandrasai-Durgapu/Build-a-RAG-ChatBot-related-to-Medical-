@@ -1,0 +1,19 @@
+langchain==0.1.17
+langchain-community==0.0.37
+langchain-core==0.1.52          # ← updated to satisfy langchain-pinecone
+langchain-groq>=0.1.0
+
+pinecone-client==3.2.2
+langchain-pinecone==0.1.1       # ← this needs core >= 0.1.52
+
+sentence-transformers==4.1.0
+
+pypdf==5.6.1
+
+fastapi>=0.100.0
+uvicorn[standard]==0.22.0
+
+python-dotenv==1.1.0
+protobuf==3.20.3
+
+-e .
