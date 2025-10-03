@@ -1,5 +1,17 @@
 # Build-a-RAG-ChatBot-related-to-Medical-
 Build a RAG ChatBot related to Medical and frontend build with Flask and using LLM, Langchain and PineCone(Vector database) 
+---
+
+## 🧰 Tech Stack
+
+- **Python 3.10+** — core language  
+- **Flask** — web server / frontend  
+- **LangChain** — orchestrating LLM + retrieval + chaining  
+- **OpenAI / Other LLM providers** — underlying language model for generation  
+- **Pinecone** — vector database for embeddings and similarity search  
+- **python-dotenv** — environment variable management  
+
+---
 
 ## Key Components
 
